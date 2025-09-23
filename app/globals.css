@@ -107,6 +107,9 @@
   .text-36 {
     @apply text-[36px] leading-[44px];
   }
+  .bg-gradient-mesh {
+    background-image: url('/icons/gradient-mesh.svg')
+  }
 
   /* Home */
   .home {
@@ -171,7 +174,7 @@
   }
 
   .profile-img {
-    @apply flex-center absolute -top-8 size-24 rounded-full bg-gray-100 border-8 border-white p-2 shadow-profile;
+    @apply flex-center absolute -top-8 size-24 rounded-full bg-gray-100 border-8 border-white p-2 shadow-sm;
   }
 
   .profile-details {
