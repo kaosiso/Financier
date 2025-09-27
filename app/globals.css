@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -107,8 +106,13 @@
   .text-36 {
     @apply text-[36px] leading-[44px];
   }
+
+  .text-bankGradient {
+    @apply bg-gradient-to-r from-blue-500 via-blue-500 to-blue-500 bg-clip-text text-transparent;
+  }
+
   .bg-gradient-mesh {
-    background-image: url('/icons/gradient-mesh.svg')
+    background-image: url("/icons/gradient-mesh.svg");
   }
 
   /* Home */
@@ -278,7 +282,7 @@
 
   /* Auth */
   .auth-asset {
-    @apply flex h-screen w-full sticky top-0 items-center justify-end bg-sky-1 max-lg:hidden;
+    @apply flex h-screen w-full sticky top-0 items-center justify-end bg-sky-100 max-lg:hidden;
   }
 
   /* Auth Form */
